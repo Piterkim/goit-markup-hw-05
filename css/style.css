@@ -66,7 +66,6 @@ ul {
   margin-right: 30px;
   margin-bottom: 30px;
   cursor: pointer;
-  transition: box-shadow 250ms var(--timing);
 }
 .litem:nth-child(3n) {
   margin-right: 0;
@@ -91,7 +90,7 @@ ul {
   letter-spacing: 0.02em;
   text-decoration: none;
   position: relative;
-  transition: color 250ms var(--timing);
+  /*transition: color 250ms var(--timing);*/
 }
 .link-nav:hover,
 .link-nav:focus {
@@ -397,6 +396,7 @@ ul {
 }
 .project-card {
   display: block;
+  transition: color 250ms var(--timing);
 }
 .project-div {
   position: relative;
